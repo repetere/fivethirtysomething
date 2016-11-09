@@ -1,0 +1,61 @@
+{
+  "title": "typesetting.io",
+  "name": "typesetting.io",
+  "description": "typesetting.io website",
+  "version": "1.0.0",
+  "license": "none",
+  "private": true,
+  "main": "index.js",
+  "engines": {
+    "node": "^6.x"
+  },
+  "scripts": {
+    "test": "mocha -R spec --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:typesettin/stylie.git"
+  },
+  "dependencies": {
+    "browserify": "^13.1.1",
+    "bulma": "^0.2.3",
+    "ejs": "^2.5.2"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "bulma": "^0.0.24",
+    "chai": "^3.5.0",
+    "classie": "^1.0.0",
+    "ejs": "^2.4.1",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ejs": "^0.3.0",
+    "grunt-jsbeautifier": "^0.2.13",
+    "grunt-jsdoc": "^2.1.0",
+    "grunt-newer": "^1.2.0",
+    "grunt-simple-mocha": "^0.4.1",
+    "grunt-templater": "^0.0.6",
+    "jsdoc": "^3.4.0",
+    "mocha": "^2.4.5",
+    "uglify-js": "^2.6.2",
+    "uglifyify": "^3.0.1",
+    "util-extend": "^1.0.3"
+  },
+  "keywords": [
+    "typesettin",
+    "bootstrap",
+    "foundation",
+    "css generator",
+    "less",
+    "css framework",
+    "minimal",
+    "flat ui"
+  ]
+}
