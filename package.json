@@ -5,6 +5,7 @@
   "private": true,
   "devDependencies": {
     "react-scripts": "0.7.0",
+    "babel-plugin-transform-export-extensions": "^6.8.0",
     "browserify": "^13.0.0",
     "bulma": "^0.0.24",
     "chai": "^3.5.0",
@@ -37,9 +38,17 @@
     "ejs": "^2.5.2",
     "font-awesome": "^4.7.0",
     "re-bulma": "^0.2.1",
-    "react-animate.css": "0.0.4",
     "react": "^15.4.0",
-    "react-dom": "^15.4.0"
+    "react-addons-css-transition-group": "^15.4.0",
+    "react-animate.css": "0.0.4",
+    "react-dom": "^15.4.0",
+    "react-native": "^0.37.0",
+    "react-redux": "^4.4.6",
+    "react-router": "^3.0.0",
+    "react-router-redux": "^4.0.7",
+    "react-web": "^0.4.5",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
